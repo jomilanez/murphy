@@ -1,0 +1,19 @@
+service: murphy
+
+package:
+  exclude:
+    - alexa/**
+
+provider:
+  name: aws
+  runtime: python2.7
+  region: eu-west-1
+  timeout: 300
+  memorySize: 128
+
+functions:
+  murphy:
+    handler: handler.lambda_handler
+    events:
+      - alexaSkill
+

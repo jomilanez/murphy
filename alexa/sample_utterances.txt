@@ -1,0 +1,2 @@
+MurphyIntent Erzähl mir ein Murphys Gesetz
+MurphyIntent Sag mir ein Murphys Gesetz
